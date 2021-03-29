@@ -1,0 +1,298 @@
+		table 
+        {
+            width: 100%;
+            font: 17px Calibri;
+			background-color:darkgrey;
+        }
+        table, th, td 
+        {
+            border: solid 1px #DDD;
+            border-collapse: collapse;
+            padding: 2px 3px;
+			text-align: center;
+			margin-left:7px;
+		
+        }
+      
+        input[type='button'] 
+        {
+            font: 15px Calibri;
+            cursor: pointer;
+            border: none;
+            color: #FFF;
+        }
+        
+        input[type='text'], select 
+        {
+            font: 17px Calibri;
+            text-align: center;
+            border: solid 1px #CCC;
+            width: auto;
+            padding: 2px 3px;
+        }	
+
+	    
+		#name
+		{
+			margin-left:40px;
+		}
+		#comment
+		{
+			margin-left:15px;
+			padding-right:10px;
+		}
+		body
+		{
+			background-color: LightGray;
+		}
+		table.elemTable{background-color:darkgrey; width:0%; border-collapse: separate;}
+		td.elemTable{border:2px solid blue;}
+		th.elemTable{border:2px solid blue;}
+		td.elemTable:nth-of-type(3n+2){border:2px solid yellow;}
+		th.elemTable:nth-of-type(3n+2){border:2px solid yellow;}
+		td.elemTable:nth-of-type(3n){border:2px solid red;}
+		th.elemTable:nth-of-type(3n){border:2px solid red;}
+
+	   .box
+		{
+			padding: 5px;
+		}
+		.textTitlu
+		{
+			font-size:20px;
+			font-weight:bold;
+			
+		}
+		iframe
+		{
+			frameborder:0;
+			width:100%;
+			height:100%;
+		}
+       #zonaTitlu
+       {
+           width:20%;
+           height:25vh;
+           display: inline-block;
+           background-color: #aeaba7;
+		   margin-bottom:10px;
+		   transition: width 2s, height 2s, background-color 2s, transform 2s;
+       }
+	   #zonaTitlu:hover
+	   {
+			background-color: yellow;
+			width: 30%;
+			height: 30vh;
+			transform: rotate(325deg);
+	   }
+       #zonaImagine
+       {
+           width: 400px;
+           height: 245px;
+           display: inline-block;
+		   background-color: #aeaba7;
+		   margin-left:10px;
+		   margin-right:10px;
+		   margin-bottom:10px;
+       }
+	   #zonaImagine2
+       {
+           width: 700px;
+           height: 350px;
+		   margin-bottom:10px;
+           display: inline-block;
+       }
+	   #container1
+	   {
+			display: flex;
+			flex-wrap:wrap;
+			
+	   }
+	   #participation
+	   {
+		   width:700px;
+		   height:auto;
+		   display:inline-block;
+		   background-color: #aeaba7;
+		   margin-left:10px;
+		   margin-top:10px;
+		   margin-bottom:10px;
+		   margin-right:10px;
+		    /* padding:5px; */
+		
+	   }
+	   #prize
+	   {
+		   width:700px;
+		   height:auto;
+		   display:inline-block;
+		   background-color: #aeaba7;
+		   margin-left:10px;
+		   margin-top:10px;
+		   margin-bottom:10px;
+		   margin-right:10px;
+		    /* padding:5px; */
+		
+	   }
+        #LinieTitlu {
+			display: block;
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+            margin-left: auto;
+            margin-right: 50px;
+            border-style: inset;
+            border-width: 2px;
+            border-color:darkgrey;
+          }
+		.logo
+		{
+			width: 400px;
+			height: auto;
+		}
+		.arena
+		{
+			width: 700px;
+			height: auto;
+		}
+		#tabel
+		{
+			background-color: #aeaba7;
+		}
+		#Iframe
+		{
+			width:700px;
+			height:400px;
+			display:inline-block;
+			margin-left:10px;
+			
+		}
+		#Iframe2
+		{
+			width:700px;
+			height:400px;
+			display:inline-block;
+			margin-left:10px;
+			
+		}
+		#container2
+	   {
+			display: flex;
+			
+			
+	   }
+		
+		.spanClass
+		{
+			color: yellow;
+			font-weight: bold;
+			font-size: 20px;
+		}
+		
+		@media (max-width: 800.98px){
+		#container2
+		{
+			display:block;
+		}
+		#participation
+		{
+			margin-left:0px;
+			padding-right:0px;
+		}
+		#prize
+		{
+			margin-left:0px;
+			padding-right:0px;
+			
+		}
+		}
+		
+		@media (max-width: 575.98px){
+		
+		#Iframe
+		{
+			width:90vw;
+			height:250px;
+			display:block;
+			margin-left:0px;
+		}
+		#Iframe2
+		{
+			width:90vw;
+			height:250px;
+			display:block;
+			margin-left:0px;
+		}
+		#container2
+		{
+			display:block;
+		}
+		
+		.textTitlu
+		{
+			font-size:5vw;
+		}
+		#zonaTitlu
+		{
+			width:100%;
+			display:block;
+		}
+		#zonaImagine
+		{
+			width:100%;
+			display:block;
+			margin-left:0px;
+		}
+		#zonaImagine2
+		{
+			width:100%;
+			height:auto;
+			display:block;
+		}
+		#participation
+	   {
+		   width:100%;
+		   height:auto;
+		   display:block;
+		   background-color: #aeaba7;
+		   padding-left:5px;
+		   margin-left:0px;
+		   padding-right:0px;
+	   }
+	   #prize
+	   {
+		   width:100%;
+		   height:auto;
+		   display:block;
+		   background-color: #aeaba7;
+		   padding-left:5px;
+		   margin-left:0px;
+		   padding-right:0px;
+			
+	   }
+		#imagine
+		{
+			width:100%;
+		}
+		#container1
+		{
+			display:block;
+		}
+		/* .logo */
+		/* { */
+			/* width:50vw; */
+			/* height:auto; */
+		/* } */
+		/* .arena */
+		/* { */
+			/* width:50vw; */
+			/* height:auto; */
+		/* } */
+		.box
+		{
+			padding:0px;
+			padding-top:5px;
+			
+		}
+		
+		}
+		

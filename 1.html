@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+		<link rel="stylesheet" type="text/css" href="titlulogo.css">
+		<link rel="stylesheet" type="text/css" href="navbar.css">
+		
+        <title> LOL tournaments </title>
+	<meta name="viewport" content="width=device-width">
+    </head>	
+
+    <body>
+		<ul>
+			<li ><a data-mlr-text href="C:\Users\preda\OneDrive\Desktop\Proiect Web\1.html">Home</a></li>
+			<li><a data-mlr-text href="C:\Users\preda\OneDrive\Desktop\Proiect Web\2.html">Contact</a></li>
+			<li class="dropdown">
+			<a data-mlr-text href="javascript:void(0)" class="dropbtn">League Sites</a>
+			<div class="dropdown-content">
+			<a data-mlr-text href = "https://lol.gamepedia.com/League_of_Legends_Esports_Wiki">Pro Stats</a> 
+			<a data-mlr-text href = "https://www.op.gg">Ranked Stats</a> 
+			<a data-mlr-text href = "https://www.twitch.tv/riotgames">First Pro League Channel</a> 
+			</div>
+			</li>
+		</ul>
+		
+		<select style="padding:5px; margin-left:10px;" id="mbPOCControlsLangDrop"></select>
+		<br><br>
+		<button style="padding:5px; margin-left:10px;" id = "colors1">Colors1</button>
+		<button style="padding:5px; margin-left:10px;" id = "colors2">Colors2</button>
+		<button onclick = "stopColor()" style="padding:5px; margin-left:10px;" id = "culoriInterval">STOP</button>
+		<p data-mlr-text style = "margin-left:5px; font-size: 20px;">Tournaments List</p>
+		
+		<div id="container" style="width:700px;">  <!-- CRUD -->
+		</div>
+		
+		<div style="margin-top:2%;padding:1px 10px;">
+		<div id = "container1">
+        <div id="zonaTitlu" class = "box">
+            <p data-mlr-text class="textTitlu">Welcome to LOL Tournaments</p>
+            <hr id="LinieTitlu">
+		 </div>
+        <div id="zonaImagine" class = "box">
+            <a href="https://eune.leagueoflegends.com/ro/">
+                <img class = "logo" src="lol-logoo.jpg" alt="LOL logo" id ="imagine">
+            </a>
+		<br>
+		<span data-mlr-text >Click on the logo to go to League of Legends site</span>
+        </div>
+
+        <img class = "arena" src="arena.jpg" alt="LOL arena" id ="zonaImagine2">
+		<article id="participation" class = "box"> 
+            <header> 
+                <h1 data-mlr-text>How to participate at a League of Legends Tournament</h1> 
+                <h4 data-mlr-text>1.Make a LOL Tournaments account</h4> 
+				<h4 data-mlr-text>2.Choose the tournament you want to participate in</h4>
+				<h4 data-mlr-text>3.Confirm the participation by email</h4>
+            </header> 
+        </article>
+		<article id="prize" class="box"> 
+            <header> 
+                <h1 data-mlr-text>Types of prizes for winning a League of Legends Tournament:</h1> 
+                <h4 data-mlr-text>1.Riot Points</h4> 
+				<h4 data-mlr-text>2.Paypal</h4>
+				<h4 data-mlr-text>3.Skins</h4>
+            </header> 
+        </article>
+		</div>
+		
+		<table class="elemTable" id="tabel">
+			<caption style="font-size:1.3em; color:black"><strong data-mlr-text>Tournaments Availability</strong></caption>
+			<tr>
+				<th class="elemTable" data-mlr-text>Time</th>
+				<th class="elemTable" data-mlr-text>Mo</th>
+				<th class="elemTable" data-mlr-text>Tu</th>
+				<th class="elemTable" data-mlr-text>W</th>
+				<th class="elemTable" data-mlr-text>Th</th>
+				<th class="elemTable" data-mlr-text>F</th>
+				<th class="elemTable" data-mlr-text>Sa</th>
+				<th class="elemTable" data-mlr-text>Su</th>
+			</tr>
+			<tr>
+				<td class="elemTable">00-06</td>
+				<td class="elemTable" data-mlr-text>NO</td>
+				<td class="elemTable" data-mlr-text>NO</td>
+				<td class="elemTable" data-mlr-text>NO</td>
+				<td class="elemTable" data-mlr-text>NO</td>
+				<td class="elemTable" data-mlr-text>NO</td>
+				<td class="elemTable" data-mlr-text>YES</td>
+				<td class="elemTable" data-mlr-text>YES</td>
+			</tr>
+			<tr>
+				<td class="elemTable">06-12</td>
+				<td class="elemTable" data-mlr-text>YES</td>
+				<td class="elemTable" data-mlr-text>YES</td>
+				<td class="elemTable" data-mlr-text>YES</td>
+				<td class="elemTable" data-mlr-text>YES</td>
+				<td class="elemTable" data-mlr-text>YES</td>
+				<td class="elemTable" data-mlr-text>YES</td>
+				<td class="elemTable" data-mlr-text>YES</td>
+			</tr>
+			<tr>
+				<td class="elemTable">12-18</td>
+				<td class="elemTable" data-mlr-text>YES</td>
+				<td class="elemTable" data-mlr-text>NO</td>
+				<td class="elemTable" data-mlr-text>YES</td>
+				<td class="elemTable" data-mlr-text>NO</td>
+				<td class="elemTable" data-mlr-text>YES</td>
+				<td class="elemTable" data-mlr-text>NO</td>
+				<td class="elemTable" data-mlr-text>YES</td>
+			</tr>
+			<tr>
+				<td class="elemTable">18-00</td>
+				<td class="elemTable" data-mlr-text>YES</td>
+				<td class="elemTable" data-mlr-text>YES</td>
+				<td class="elemTable" data-mlr-text>YES</td>
+				<td class="elemTable" data-mlr-text>YES</td>
+				<td class="elemTable" data-mlr-text>YES</td>
+				<td class="elemTable" data-mlr-text>NO</td>
+				<td class="elemTable" data-mlr-text>NO</td>
+			</tr>
+		</table>
+		
+		<br>
+		<div id = "container2">
+		<div id = "Iframe">
+		<iframe src="https://www.youtube.com/embed/i1IKnWDecwA"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+		</div>
+		
+		<br>
+		
+		<div id = "Iframe2">
+		<iframe src="https://www.youtube.com/embed/XdN67NuhMW4"   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		</div>
+		<br> <br>
+		
+		</div>
+		<span style = "margin-left: 7px;" data-mlr-text>Name</span>	
+        <input id='name' type='text' placeholder="name"/>
+        </br>
+       <span style = "margin-left: 7px;" data-mlr-text>Comment</span>
+		<textarea id='comment'> </textarea> 
+		<br>
+		<br>	
+		<input data-mlr-text style = "background-color: red; margin-left: 10px;" type ='button' value="Send" onClick="sendInformation();">
+		<br>
+		<br>
+        <div id='responseArea'></div>
+		<br>
+		<script src="jscode.js"></script>
+		
+    </body>
+</html>
